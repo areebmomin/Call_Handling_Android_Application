@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MCall</string>
+    <string name="type_your_message">Type new message:</string>
+    <string name="info1">MCall is created for handling the call when the person is busy.This app takes care of all your incoming calls by sending SMS as a feedback.</string>
+    <string name="info2">First set message in the message option.Turn `ON` the switch in the homepage for handling the incoming calls.If any call occurs when the switch is `ON`, the feedback message that you have set will be send to the incoming number.</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="mcall_stopped">MCall stopped.</string>
+    <string name="adUnitID1">ca-app-pub-5352098844215859/5103076651</string>
+    <string name="adUnitID2">ca-app-pub-5352098844215859/6358843221</string>
+    <string name="adUnitID3">ca-app-pub-5352098844215859/4279474792</string>
+    <string name="adUnitID4">ca-app-pub-5352098844215859/9200628985</string>
+    <string name="adUnitID5">ca-app-pub-5352098844215859/2774821438</string>
+    <string name="adAppID">ca-app-pub-5352098844215859~2504833477</string>
+    <string name="about_this_app">About this app</string>
+    <string name="how_to_use">How to use</string>
+    <string name="save">Save</string>
+    <string name="current_message">Current message:</string>
+    <string name="i_will_call_you_later">I will call you later..</string>
+    <string name="testUnitId">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="testAppId">ca-app-pub-3940256099942544~3347511713</string>
+</resources>

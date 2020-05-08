@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal"
+    android:id="@+id/mainactivity"
+    >
+
+    <Switch
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="110dp"
+        android:checked="false"
+        android:textOn="@string/on"
+        android:textOff="@string/off"
+        android:gravity="center"
+        android:background="@drawable/custom_switch"
+        android:padding="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:elevation="10dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/displayStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:layout_marginStart="110dp"
+        android:text="@string/mcall_stopped"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#928B8B"
+        android:elevation="7dp"
+        />
+    <com.google.android.gms.ads.AdView
+        xmlns:ads = "http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId ="@string/adUnitID1"
+        />
+</RelativeLayout>

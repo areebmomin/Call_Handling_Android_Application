@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.areeb.mcall.message">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/type_your_message"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="20dp"
+        android:textStyle="bold"
+        android:textColor="#928B8B"
+    />
+
+    <EditText
+        android:id="@+id/newMessage"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="30dp"
+        android:maxLength="28"
+        android:maxWidth="290dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textCursorDrawable="@null"
+        android:textColor="@color/colorPrimary"
+        android:autofillHints=""
+        />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="30dp"
+        android:textStyle="normal"
+        android:textSize="18sp"
+        android:background="@drawable/custom_button"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/current_message"
+        android:textSize="20sp"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="20dp"
+        android:textStyle="bold"
+        android:textColor="#928B8B"
+        />
+
+    <TextView
+        android:id="@+id/currentMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/i_will_call_you_later"
+        android:textSize="20sp"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="30dp"
+        android:textColor="#928B8B"
+        />
+    <com.google.android.gms.ads.AdView
+        xmlns:ads = "http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId ="@string/adUnitID4"
+        />
+</RelativeLayout>

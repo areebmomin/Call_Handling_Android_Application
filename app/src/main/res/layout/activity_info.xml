@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.areeb.mcall.info">
+
+    <Button
+        android:id="@+id/inf1"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:text="@string/about_this_app"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/custom_button"
+        android:elevation="5dp"
+        />
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="55dp"
+        android:text="@string/info1"
+        android:textSize="17sp"
+        android:layout_below="@+id/inf1"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:lineSpacingExtra="1dp"
+        android:textColor="#928B8B"
+        />
+    <Button
+        android:id="@+id/inf2"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:text="@string/how_to_use"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_below="@id/inf1"
+        android:background="@drawable/custom_button"
+        android:elevation="5dp"
+        />
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="55dp"
+        android:text="@string/info2"
+        android:textSize="17sp"
+        android:layout_below="@+id/inf2"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:lineSpacingExtra="1dp"
+        android:textColor="#928B8B"
+        />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads = "http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId = "@string/adUnitID3"
+        />
+
+</RelativeLayout>

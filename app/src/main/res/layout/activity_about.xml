@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.areeb.mcall.about">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developed by:"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Areeb Momin"
+        android:textSize="33dp"
+        android:fontFamily="cursive"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="70dp"
+        android:textColor="#928B8B"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dedicated to:"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:text="Rafay , Altamash , Shahnawaz"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textSize="33dp"
+        android:layout_marginTop="165dp"
+        android:layout_marginLeft="70dp"
+        android:textColor="#928B8B"
+        />
+    <com.google.android.gms.ads.AdView
+        xmlns:ads = "http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId ="@string/adUnitID5"
+        />
+</RelativeLayout>
