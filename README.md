@@ -14,6 +14,8 @@
 
 2) You can set message of your choice to be sent to the user.
 
+## Screenshots:
+
 <br />
 
 > **_NOTE:_**  Please find complete screenshots in [Screenshots](https://github.com/areebmomin/Call_Handling_Android_Application/tree/master/Screenshots) folder.
